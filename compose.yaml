@@ -1,0 +1,8 @@
+
+services:
+  message:
+    build: .
+    container_name: message_server_container
+    ports:
+      - "8080:8080"
+    restart: on-failure
